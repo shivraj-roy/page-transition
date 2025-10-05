@@ -2,7 +2,7 @@ const page = () => {
    return (
       <>
          <div className="container">
-            <div className="page-header">Get in Touch</div>
+            <h1 className="page-header">Get in Touch</h1>
          </div>
       </>
    );

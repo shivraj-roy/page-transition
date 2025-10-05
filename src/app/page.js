@@ -2,7 +2,7 @@ export default function Home() {
    return (
       <>
          <div className="container">
-            <div className="page-header">Timeless Elegance</div>
+            <h1 className="page-header">10 Billion %</h1>
          </div>
       </>
    );

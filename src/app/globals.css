@@ -1,0 +1,80 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: "VTC Carrie", sans-serif;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+h1 {
+   text-transform: uppercase;
+   color: #141414;
+   font-size: 12rem;
+   line-height: 1;
+}
+a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #141414;
+   font-family: "DM Mono";
+   font-size: 0.9rem;
+   font-weight: 500;
+}
+
+nav {
+   position: fixed;
+   padding: 2rem;
+   width: 100vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 1;
+}
+
+.nav-logo a {
+   font-size: 1.25rem;
+   font-family: "VTC Carrie", sans-serif;
+}
+
+.nav-links {
+   display: flex;
+   gap: 2rem;
+}
+
+.container {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   min-height: 100svh;
+   background-color: #e3e4d8;
+}
+
+.page-header {
+   width: 100vw;
+   height: 100svh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+}
+
+.archive {
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   gap: 2rem;
+   margin: 0 auto;
+   padding: 15rem 2rem;
+}
+
+.archive img {
+   aspect-ratio: 5/7;
+}
