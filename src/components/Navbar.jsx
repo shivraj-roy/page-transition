@@ -5,7 +5,10 @@ const Navbar = () => {
       <>
          <nav>
             <div className="nav-logo">
-               <Link href="/">SENKU</Link>
+               <Link href="/" className="logo-flex">
+                  <img className="logo" src="/senku-icon.png" alt="logo" />
+                  <p className="logo-title">SENKU</p>
+               </Link>
             </div>
             <div className="nav-links">
                <Link href="/">Home</Link>

@@ -39,6 +39,25 @@ nav {
    z-index: 1;
 }
 
+.logo {
+   width: 80px;
+   height: 80px;
+   margin-left: -20px;
+}
+
+.logo-flex {
+   display: flex;
+   align-items: center;
+   /* gap: 0.5rem; */
+   text-decoration: none;
+}
+
+.logo-title {
+   font-size: inherit;
+   font-weight: bold;
+   color: inherit;
+}
+
 .nav-logo a {
    font-size: 1.25rem;
    font-family: "VTC Carrie", sans-serif;
@@ -126,5 +145,19 @@ nav {
 @media (max-width: 1000px) {
    h1 {
       font-size: 3rem;
+      text-align: center;
+   }
+
+   .logo-title {
+      display: none;
+   }
+
+   .nav-links {
+      gap: 1rem;
+   }
+
+   .archive {
+      width: 80%;
+      padding: 10rem 2rem;
    }
 }
