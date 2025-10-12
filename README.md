@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="src/app/icon.png" alt="Page Transition Project Logo" width="100" height="100">
+</div>
 
-## Getting Started
+# Page Transition Animation Project
 
-First, run the development server:
+A Next.js project focused on showcasing smooth page transitions with GSAP animations. This project demonstrates advanced animation techniques for seamless navigation between pages with custom logo animations and block-based transitions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── archive/         # Archive page
+│   ├── contact/         # Contact page
+│   ├── layout.js        # Root layout
+│   ├── page.js          # Home page
+│   └── globals.css      # Global styles
+└── components/
+    ├── Logo.jsx         # Animated logo component
+    ├── Navbar.jsx       # Navigation component
+    └── PageTransition.jsx # Main transition wrapper
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pages
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-  **Home** (`/`) - Main landing page
+-  **Archive** (`/archive`) - Archive content page
+-  **Contact** (`/contact`) - Contact information page
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Animation Features
 
-## Learn More
+-  Block-based page transitions with staggered animations
+-  SVG logo drawing animation during transitions
+-  Smooth scrolling with Lenis integration
+-  Custom easing curves for natural motion
 
-To learn more about Next.js, take a look at the following resources:
+## Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is hosted on Vercel and can be viewed at:
+**[senkuuu.vercel.app](https://senkuuu.vercel.app)**
